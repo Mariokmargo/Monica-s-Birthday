@@ -1,0 +1,201 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+
+    background-color: white;
+    margin: 0;
+    font-family: 'Annie Use Your Telescope';
+    font-size: 22px;
+}
+
+h1,
+h2 {
+  
+    font-family: 'Annie Use Your Telescope';
+}
+
+h1{
+
+    font-size: 5.625rem; /* 90px/16px  */
+    color: rgb(92, 0, 218);
+    text-transform: capitalize;
+    font-weight: normal;
+    line-height: 1.3;
+    text-shadow: 3px 5px 3px rgb(243, 236, 236);
+    margin: 12px 0 0;
+    
+
+}
+
+h2 {
+    font-size: 3.3125em;
+    font-weight: bolder;
+    line-height: 1.1;
+    margin: 0 0 .5em;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em
+
+}
+
+p{
+    font-size: 1.35em;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.butterfly {
+
+    width: 200px;
+    margin-top: 40px;
+    border-radius: 50%;
+    border: solid rgb(92, 0, 218);
+}
+
+.main-header {
+
+    padding-top: 100px;
+    height: 600px;
+    background: linear-gradient( to right top, #e66465, #9198e5, transparent 90% ),
+                linear-gradient(0deg,#fff,transparent),
+               rgb(139, 16, 139) url(images/amelie.jpg) no-repeat center;
+  
+    background-size: cover;
+    text-align: center;
+    }
+
+.title {
+
+    font-size: 1.5rem;
+    border-bottom: solid white 2px;
+    color: white;
+    margin-bottom: 5px;
+    font-weight: bold ;
+    padding-bottom: 10px;
+    letter-spacing: .065em;
+}
+
+.intro {
+
+    font-size: 1.50em;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.t-border{
+
+    border-top: 2px solid #9198e5;
+}
+
+.primary-content{
+
+    padding-top: 25px;
+    padding-bottom: 95px;
+    width: 75;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+    max-width: 960px;
+    text-align: center;
+}
+
+.video {
+    font-size: 1.25em;
+    border-bottom: 3px solid;
+    padding: 0 9px 3px;
+    margin-top: 20px;
+    display: inline-block;
+    
+}
+
+.music  {
+    font-size: 1.25em;
+    border-bottom: 3px solid;
+    padding: 0 9px 3px;
+    margin-top: 20px;
+    display: inline-block;
+    
+}
+
+
+.lunch {
+    color: white;
+    text-align: left;
+    padding: 18% 24%;
+    border-top: 10px solid   rgb(139, 16, 139);
+    margin: 105px 0 60px;
+    background: #434a52 url(images/stew.jpg) no-repeat center;
+    background-size: cover;
+    box-shadow: inset 0 0 50px 10px  rgba(0,0,0, .8);
+    border-radius: 10px;
+}
+
+.karaoke {
+    color: white;
+    text-align: left;
+    padding: 18% 24%;
+    border-top: 10px solid   rgb(139, 16, 139);
+    margin: 105px 0 60px;
+    background: #434a52 url(images/karaoke.jpg) no-repeat center;
+    background-size: cover;
+    box-shadow: inset 0 0 50px 10px  rgba(0,0,0, .8);
+    border-radius: 10px;
+}
+
+.gin {
+    color: white;
+    text-align: left;
+    padding: 18% 24%;
+    border-top: 10px solid   rgb(139, 16, 139);
+    margin: 105px 0 60px;
+    background: #434a52 url(images/gin.jpg) no-repeat center;
+    background-size: cover;
+    box-shadow: inset 0 0 50px 10px  rgba(0,0,0, .8);
+    border-radius: 10px;
+}
+
+.tres-leches {
+    color: white;
+    text-align: left;
+    padding: 18% 24%;
+    border-top: 10px solid   rgb(139, 16, 139);
+    margin: 105px 0 60px;
+    background: #434a52 url(images/tres.jpg) no-repeat center;
+    background-size: cover;
+    box-shadow: inset 0 0 50px 10px  rgba(0,0,0, .8);
+    border-radius: 10px;
+}
+
+.party {
+    color: white;
+    text-align: left;
+    padding: 18% 24%;
+    border-top: 10px solid   rgb(139, 16, 139);
+    margin: 105px 0 60px;
+    background: #434a52 url(images/dance.jpg) no-repeat center;
+    background-size: cover;
+    box-shadow: inset 0 0 50px 10px  rgba(0,0,0, .8);
+    border-radius: 10px;
+}
+
+.dinner {
+    color: white;
+    text-align: left;
+    padding: 18% 24%;
+    border-top: 10px solid   rgb(139, 16, 139);
+    margin: 105px 0 60px;
+    background: #434a52 url(images/ribs2.jpg) no-repeat center;
+    background-size: cover;
+    box-shadow: inset 0 0 50px 10px  rgba(0,0,0, .8);
+    border-radius: 10px;
+}
+
+.main-footer {
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    border-bottom: rgb(139, 16, 139) 10px solid;
+}
+
